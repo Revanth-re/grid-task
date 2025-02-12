@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+        display: grid;
+        grid-template-columns:25% 25% 25% 25%;
+        justify-content: center;
+        /* gap: 0% 0%; */
+       }
+       img{
+        width: 20vw;
+        height: 70vh;
+       }
+       body{
+        margin: 2%;
+        font-size: 1.2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       header{
+      
+        position: sticky;
+        top: 0%;
+       }
+       nav{
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(234, 228, 221);
+        margin-bottom: 0.2%;
+        border-radius: 2%;
+        width: 91.1vw;
+       
+
+       }
+    /* #lorem{
+        position:sticky;
+ 
+       } */
+        .center{
+            display: grid;
+            grid-template-columns:repeat(7,1rem);
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            text-align: center;
+        }
+        .center p:hover{
+            background-color: black; 
+           color: white;
+
+        }
+        #id{
+            background-color: rgb(0, 0, 0);
+            color: white;
+           
+        }
+        #photo{
+width: 50vw;
+height: 90vh;
+        }
+        .food-man{
+            margin-top: 10%;
+        }
+        #food-2{
+           margin: 10%; 
+           margin-top: 0%;
+        }
+#footer-img{
+    width: 5vw;
+    height: 10vh;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    /* grid-template-rows:30vh; */
+    /* gap: 20px; */
+    text-align: center;
+}
+.right{
+display: grid;
+grid-template-columns: repeat(5,15%);
+gap: 1% 1%;
+/* margin-top: 2%; */
+justify-content: center;
+align-items: center;
+/* margin: 20%; */
+
+}
+#foot-text{
+   /* margin: 10%; */
+   background-color:rgb(12, 12, 12);
+   color: white;
+font-size:0.8rem;
+padding: 2%;
+   text-align: center;
+ padding: 0%;
+ /* margin: 10%; */
+   border: 2px solid white;
+   /* margin-bottom: 10%; */
+   width: 5vw;
+   height: 5vh;
+ 
+   /* row-gap: 10px; */
+  
+}
+#content{
+    color: blue;
+    margin-top: -100%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hover:hover{
+    background-color: rgb(203, 203, 199);
+    /* width: 100%; */
+}
+.hover{
+    margin-bottom: 10%;
+}
+#bold{
+    font-size: 2rem;
+    color: blue;
+}
+.tags {
+    align-items: center;
+    justify-content: center;
+    /* padding: 10%; */margin-bottom: 2%;
+   
+}
+  
+   @media (max-width:768px) {
+    .container{
+        display: grid;
+        grid-template-columns:auto auto ;
+        justify-content: center;
+        gap: 2% 2%;
+       }
+       img{
+        width: 48vw;
+        height: 25vh;
+       }
+       nav{
+        width: 99vw;
+        margin-left: -12%;
+        margin-bottom: 1%;
+       }
+       body{
+font-size: 1rem;
+margin: 10%;
+margin-top: -1%;
+       } 
+       h1{
+        font-size: 0.8rem;
+    }#food-2{
+        display: none;
+    }.foodman{
+       /* display: none; */
+    }#bold{
+        font-size: 0.8rem;
+        margin-left: 10%;
+    }
+    #thick{
+        display: none;
+    }footer{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    /* grid-template-rows:30vh; */
+    /* gap: 20px; */
+    text-align: center;
+}
+#footer-img{
+    width: 30vw;
+    height: 15vh;
+} 
+#foot-text{
+   /* margin: 10%; */
+   background-color:rgb(12, 12, 12);
+   color: white;
+font-size:0.8rem;
+padding: 2%;
+   text-align: center;
+ /* padding: 0%; */
+ /* margin: 10%; */
+   /* border: 2px solid white; */
+   /* margin-bottom: 10%; */
+   width: 10vw;
+   height: 2vh;
+ 
+   /* row-gap: 10px; */
+  
+}#photo{
+   
+width: 45vw;
+height: 30vh;
+        
+}
+.center{
+margin-top: 30%;
+}
+.grid{
+   /* margin-left: 1%; */
+}
+   }
+@media (width>800px)(width<1204px){
+    .container{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        justify-content: center;
+        /* gap: 0% 0%; */
+       }
+       img{
+    
+        width: 30vw;
+        height: 50vh;
+       }
+       nav{
+        width: 94vw;
+       }#photo{
+        width: 50vw;
+        height: 40vh;
+       }
+
+  }
+    
+  
+
+    </style>
+</head>
+<body>
+    <header><nav>
+        <div><p id="lorem">MENU.</p></div>
+        <div><p id="lorem">HOME.</p></div>  <div><p id="lorem">CONTACT.</p></div>
+    </nav></header>
+ <div class="container">
+</center>
+<div class="grid" id="images">
+    <div><img src="https://www.w3schools.com/w3images/wine.jpg" alt=""></div>
+    <p id="bold">Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo.</p>
+   
+
+</div>
+<div class="grid">
+    <div><img src="https://www.w3schools.com/w3images/wine.jpg" alt=""></div>
+    <p id="bold">Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo.</p>
+   
+</div>
+<div class="grid">
+    <div><img src="https://www.w3schools.com/w3images/wine.jpg" alt=""></div>
+    <p id="bold">Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo.</p>
+ 
+</div>
+<div class="grid">
+    <div><img src="https://www.w3schools.com/w3images/wine.jpg" alt=""></div>
+    <p id="bold">Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo.</p>
+ 
+</div>
+<div class="grid">
+    <div><img src="https://www.w3schools.com/w3images/wine.jpg" alt=""></div>
+    <p id="bold">Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo.</p>
+   
+</div>
+<div class="grid">
+    <div><img src="https://www.w3schools.com/w3images/wine.jpg" alt=""></div>
+    <p id="bold">Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo.</p>
+  
+</div>
+<div class="grid">
+    <div><img src="https://www.w3schools.com/w3images/wine.jpg" alt=""></div>
+    <p id="bold">Lorem ipsum</p>
+    <p id="thick">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo.</p>
+  
+</div>
+<div class="grid">
+    <div><img src="https://www.w3schools.com/w3images/wine.jpg" alt=""></div>
+    <p id="bold">Lorem ipsum</p>
+    <p id="thick">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, nemo.</p>
+
+</div><center>
+ </div>
+ <div class="center">
+  <p><<</p>
+   <p id="id">1</p>
+   <p><a href="#images">2</a></p>
+   <p><a href="#images">3</a></p>
+   <p><a href="#images">4</a></p>
+   <p><a href="#images">5</a></p>
+   <p>>></p>
+
+ </div> <hr>
+ <div class="foodman">
+    <center>
+    <h1>About-Menu The-Food-Man</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, nesciunt?</p>
+</center>
+    <center>
+    <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" id="photo">
+</center>
+<center><h4>About-The-food-Man</h4>
+
+<p id="food-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, tempore? Unde voluptas placeat id, debitis culpa reiciendis at, velit dolorum, nihil voluptatibus laborum? Molestias nulla soluta dignissimos repudiandae, impedit, eaque laudantium explicabo voluptatibus ab natus a voluptatem unde alias magni!</p></center>
+ </div> <hr>
+ <footer>
+  
+    <div class="left">
+        <h3>LOREM</h3><p>Lorem ipsum dolor sit amet consectetur adipi</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipi</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipi</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipi</p></div>
+
+    <div class="centerr">
+        <h3>LOREM</h3>
+        <div class="hover">
+  
+        <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="" id="footer-img"> 
+      <span>Lorem ipsum dolor sit amet.</span>
+    </div>
+      <div class="hover"><img src="https://www.w3schools.com/w3images/workshop.jpg" alt="" id="footer-img"> 
+        <span>Lorem ipsum dolor sit amet.</span></div>
+       </div>
+      
+<!--        
+       <div class="left">
+        <h3>LOREM</h3>
+        <div class="tags">
+        <span id="foot-tet">lorem</span> 
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+    </div>
+    <div class="tags">
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+    </div>
+    <div class="tags">
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+        <span id="foot-tet">lorem</span>
+    </div>
+    </div> -->
+    <div class="right">
+        
+        
+    
+    
+    
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+        <span id="foot-text">lorem</span>
+         </div>
+ 
+ </footer>
+</body>
+</html>
