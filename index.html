@@ -141,13 +141,13 @@ a{
    @media (max-width:768px) {
     .container{
         display: grid;
-        grid-template-columns:auto auto ;
+        grid-template-columns:auto ;
         justify-content: center;
-        gap: 2% 2%;
+        /* gap: 2% 2%; */
        }
        img{
-        width: 48vw;
-        height: 25vh;
+        width: 95vw;
+        height: 50vh;
        }
        nav{
         width: 99vw;
@@ -160,9 +160,9 @@ margin: 10%;
 margin-top: -1%;
        } 
        h1{
-        font-size: 0.8rem;
+        /* font-size: 1.5rem; */
     }#food-2{
-        display: none;
+        /* display: none; */
     }.foodman{
        /* display: none; */
     }#bold{
@@ -204,7 +204,10 @@ width: 45vw;
 height: 30vh;
         
 }
-.center{
+.center p{
+    display: grid;
+
+grid-template-columns: repeat(5,auto);
 margin-top: 30%;
 }
 .grid{
@@ -212,7 +215,7 @@ margin-top: 30%;
 }
 
    }
-@media (width>800px)(width<1204px){
+@media (width>800px)and(width<1204px){
     .container{
         display: grid;
         grid-template-columns:auto auto auto;
@@ -234,6 +237,9 @@ margin-top: 30%;
   }
   body{
             margin-right: %;
+         }
+         p a:hover{
+            color: white;
          }
   
 
